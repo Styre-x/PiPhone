@@ -5,4 +5,4 @@ I recommend a numerical password, as the plasma mobile pin will be your password
 
 After that finishes, install plasma-mobile-core and sddm and set that as the default manager, along with configuring the waveshare display in the config.txt. Run sudo raspi-config and set the options to boot into the GUI env.
 
-Plasma mobile should boot, login with your password and plasma will load you in. By default, plasma mobile on the pi doesn't come with a texting app or calling app, so those must be installed from the store. 
+Plasma mobile should boot, login with your password and plasma will load you in. By default, plasma mobile on the pi doesn't come with a texting app or calling app, so those must be installed from the store. I like chats and dialer. Chats has a bit better interface and works by default with MMS, groups, and emojis. Spacebar tends to crash with emojis and images.
