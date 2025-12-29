@@ -1,0 +1,9 @@
+Basic current hardware:
+CM4
+CM4 io board from raspberry pi
+Waveshare DSI screen - any size works, but it must be a DSI screen. Other connectors are large and will not work well in the future.
+Waveshare SIM7600G-H 4G HAT. Only needs USB power. Will be de-soldered and changed a bit in the future.
+
+The SIM7600 and Verizon don't get along well. Data worked fine, texts and calls were iffy. T-Mobile worked a lot better than Verizon, calls and texts were delivered even after the phone was turned off.
+
+7.5-28v power source. No fans or PCI modules should be used if it is not 12v. A car/motorcycle battery works great for this and makes it ""portable""!
