@@ -1,0 +1,8 @@
+Setup is fairly simple. cleaner, condensed instructions will be added later, this is only for basic documentation.
+
+Install a headless raspberrypi-os Lite 64-bit on the CM4 using the IO board. Technically you can get away with 32-bit, but 64 has more compatible apps.
+I recommend a numerical password, as the plasma mobile pin will be your password. 
+
+After that finishes, install plasma-mobile-core and sddm and set that as the default manager, along with configuring the waveshare display in the config.txt. Run sudo raspi-config and set the options to boot into the GUI env.
+
+Plasma mobile should boot, login with your password and plasma will load you in. By default, plasma mobile on the pi doesn't come with a texting app or calling app, so those must be installed from the store. 
